@@ -1,9 +1,9 @@
 {
   "name": "array-to-stack",
-  "version": "1.0.5",
-  "description": "The stack data type as es2015 module",
-  "main": "dist/bundle.js",
-  "jsnext:main": "src/stack.js",
+  "version": "1.0.0",
+  "description": "A useless(?) utility to test webpack module workflow.",
+  "main": "dist/array-to-stack.js",
+  "jsnext:main": "src/array-to-stack.js",
   "scripts": {
     "build": "set NODE_ENV=production && webpack --define process.env.NODE_ENV='\"production\"'",
     "watch": "webpack -d --watch",
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/onsetsu/stack-es2015-module.git"
+    "url": "git+https://github.com/onsetsu/array-to-stack.git"
   },
   "keywords": [
     "stack",
-    "data",
-    "type"
+    "array",
+    "conversion"
   ],
   "author": {
     "name" : "Stefan Ramson",
@@ -26,9 +26,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/onsetsu/stack-es2015-module/issues"
+    "url": "https://github.com/onsetsu/array-to-stack/issues"
   },
-  "homepage": "https://github.com/onsetsu/stack-es2015-module#readme",
+  "homepage": "https://github.com/onsetsu/array-to-stack#readme",
   "dependencies": {
     "babel-core": "^6.7.7",
     "babel-loader": "^6.2.4",

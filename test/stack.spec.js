@@ -12,7 +12,7 @@ describe('STACK', () => {
 
         expect(obj.foo).to.equal(42);
     });
-    xit('should test the stack', () => {
+    it('should test the stack', () => {
         let s = new Stack();
         s.push(42);
 
@@ -20,3 +20,5 @@ describe('STACK', () => {
     })
 
 });
+
+export { Stack };

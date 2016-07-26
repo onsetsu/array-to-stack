@@ -9,7 +9,7 @@ var config = {
     //entry: JSNEXT_MAIN.toString(),
     output: {
         path: BUILD_DIR,
-        filename: 'bundle.js'
+        filename: 'array-to-stack.js'
     },
     devtool: "inline-source-map",
     module : {
@@ -41,6 +41,10 @@ var config = {
 console.log(process.env.npm_lifecycle_event)
 if(process.env.npm_lifecycle_event == 'build') {
     config.entry = JSNEXT_MAIN;
+
+    config.output.library = 'array-to-stack';
+    config.output.libraryTarget = 'umd';
+    config.output.umdNamedDefine = true;
 }
 
 module.exports = config;

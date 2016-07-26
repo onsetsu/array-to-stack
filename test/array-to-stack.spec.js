@@ -1,4 +1,5 @@
-import {arrayToStack} from '../src/array-to-stack.js';
+import {arrayToStack, Stack as ST} from '../src/array-to-stack.js';
+import Stack from 'stack-es2015-modules';
 
 describe('Array to Stack.', () => {
 
@@ -18,6 +19,11 @@ describe('Array to Stack.', () => {
         expect(s2.top()).to.equal(17);
         s2.pop();
         expect(s2.top()).to.be.undefined;
+    });
+
+    it('should type check (support export from)', () => {
+        let s = arrayToStack([1,2,3]);
+        expect(s).to.be.an.instanceof(Stack);
     });
 
 });
