@@ -6,10 +6,10 @@ A useless(?) utility to test webpack module workflow.
 As npm for Node.js:
 
 ```
-$ npm install stack-es2015-module --save
+$ npm install array-to-stack --save
 ```
 
-Or download the [bundle.js](https://raw.githubusercontent.com/onsetsu/array-to-stack/master/bundle.js) file.
+Or download the [bundle](https://raw.githubusercontent.com/onsetsu/array-to-stack/master/array-to-stack.js) file.
 
 ## Building
 
@@ -17,7 +17,7 @@ Or download the [bundle.js](https://raw.githubusercontent.com/onsetsu/array-to-s
 $ npm run-script build
 ```
 
-creates the `bundle.js` file in the `dist` folder.
+creates the *bundle* file in the `dist` folder.
 
 ## Testing
 
