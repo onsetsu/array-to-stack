@@ -9,7 +9,7 @@ As npm for Node.js:
 $ npm install array-to-stack --save
 ```
 
-Or download the [bundle](https://raw.githubusercontent.com/onsetsu/array-to-stack/master/array-to-stack.js) file.
+Or download the [bundle](https://raw.githubusercontent.com/onsetsu/array-to-stack/master/dist/array-to-stack.js) file.
 
 ## Building
 
