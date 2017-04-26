@@ -1,4 +1,4 @@
-# array-to-stack
+# array-to-stack [![Build Status](https://travis-ci.org/onsetsu/array-to-stack.svg?branch=master)](https://travis-ci.org/onsetsu/array-to-stack)
 A useless(?) utility to test webpack module workflow.
 
 ## Installation
